@@ -1,8 +1,8 @@
 name: "ai6's blog"
 description: "wx的个人技术博客"
 
-avatar: /images/avatar.png
-favicon: /images/favicon.ico
+avatar: images/avatar.png
+favicon: images/favicon.ico
 
 navigation:
   - name: 首页
