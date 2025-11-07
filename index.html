@@ -34,6 +34,16 @@ layout: default
 </script>
 
 <a href="https://whx11258.github.io/ai6.github.io/images/公众号.png" class="btn" style="background-color: #4194de">扫一扫加公众号</a>
+layer.open({
+  type: 1, // page 层类型
+  area: ['500px', '300px'],
+  title: 'Hello layer',
+  shade: 0.6, // 遮罩透明度
+  shadeClose: true, // 点击遮罩区域，关闭弹层
+  maxmin: true, // 允许全屏最小化
+  anim: 0, // 0-6 的动画形式，-1 不开启
+  content: '<img border="0" src="images/公众号.png" alt="Pulpit rock" width="304" height="228">'
+});
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% endif %}
@@ -88,5 +98,6 @@ layout: default
     </span>
   {% endif %}
 </div>
+
 
 
