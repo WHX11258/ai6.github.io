@@ -34,8 +34,8 @@ paginate_path: /page:num/
 
 # Gitalk
 gitalk:
-  clientID: cba98a0db83eb062c0f8
-  clientSecret: 46400b2614fb5c4189f6c5f662baee088712b316
+  clientID: Iv23li39nYRT8yPR0phQ
+  clientSecret: b67fea10f32c44a32eb7014e34afaddf9fedd900
   repo: WHX11258.github.io
   owner: WHX11258
 # The release of Jekyll Now
